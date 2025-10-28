@@ -1,0 +1,198 @@
+body {
+  font-family: 'Smythe', cursive;
+  font-size: 1rem;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 450px;
+} 
+
+header {
+  height: 150px;
+  background-image: url(./burger.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover; 
+  margin-bottom: 1em;
+}
+
+header h1 {
+  margin: 0;
+  font-weight: 400;
+}
+
+header p {
+  margin-top: .5em;
+}
+
+.intro {
+  color: #fff;
+  padding-left: 3em;
+  padding-top: 2.75em;
+}
+
+/* Menu */
+
+.menu-items-container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  border-bottom: 1px solid #D2D2D2;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.items {
+  margin-left: 1em;
+  
+}
+
+.emoji {
+  font-size: 4em;
+  margin: 0;
+}
+
+.item-name {
+  font-size: 1.5rem;
+  margin-top: 0.7em;
+  margin-bottom: 0;
+}
+
+.ingredients {
+  margin: 0;
+  color: #8B8B8B;
+}
+
+
+i {
+  border: 1px solid #DEDEDE;
+  border-radius: 50%;
+  padding: .75em;
+  margin-right: 1em;
+  cursor: pointer;
+}
+
+i:hover,
+i:focus {
+  background-color: #000;
+  color: #fff;
+}
+
+/*Ordered List*/
+
+.order-total h2 {
+  text-align: center;
+  margin: 1.3em 1em 0 2em;
+}
+
+.order-list-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.total-price {
+  margin-top: 1em;
+  border-top: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+.remove {
+  font-size: 0.7rem;
+  font-weight: var(--fw-normal);
+  background-color: transparent;
+  border: none;
+  color: #BBBBBB;
+  margin-left: 1em;
+  cursor: pointer;
+  align-self: center;
+}
+
+.order-btn {
+  background-color: #16DB99;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  margin: 0 auto;
+  font-weight: bold;
+  padding: 0.7em 1em;
+  color: #fff;
+  margin-top: 2em;
+  cursor: pointer;
+  font-family: Verdana, sans-serif;
+}
+
+
+
+/*Modal*/
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 350px;
+  height: 350px;
+  overflow: auto;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 6px 2px #666;
+  font-family: Verdana, sans-serif;
+}
+
+.modal-header {
+  text-align: center;
+}
+
+button {
+  background-color: #16DB99;
+  border: none;
+  border-radius: 5px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0.5em 1em;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em 1em;
+}
+
+input {
+  width: 90%;
+  margin: 0 auto 1.25em auto;
+  padding: 10px 15px;
+}
+
+
+
+/*Thank you*/
+
+.order-complete {
+  display: none;
+  background-color: #ECFDF5;
+  color: #065F46;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.5em 0.5em;
+  margin-top: 1em;
+}
